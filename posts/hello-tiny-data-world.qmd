@@ -1,0 +1,25 @@
+---
+title: "Hello, Tiny Data World"
+description: "Kicking off this blog with a microscopic dataset."
+date: 2025-11-22
+categories: [intro, meta]
+format:
+  html:
+    toc: false
+    code-fold: false
+---
+
+This is my very first tiny data story.
+
+Right now, the goal is just to make sure everything works: the blog, the code, and the render.  
+So here's a microscopic dataset to launch this thing.
+
+```{python}
+import pandas as pd
+
+df = pd.DataFrame({
+    "fruit": ["apple", "banana", "kiwi"],
+    "rating": [8, 6, 9]
+})
+df
+```

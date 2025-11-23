@@ -1,0 +1,16 @@
+{
+  "hash": "7865c8f2d53da25d929bc018e52dfcfe",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Hello, Tiny Data World\"\ndescription: \"Kicking off this blog with a microscopic dataset.\"\ndate: 2025-11-22\ncategories: [intro, meta]\nformat:\n  html:\n    toc: false\n    code-fold: false\n---\n\nThis is my very first tiny data story.\n\nRight now, the goal is just to make sure everything works: the blog, the code, and the render.  \nSo here's a microscopic dataset to launch this thing.\n\n::: {#d1555e4f .cell execution_count=1}\n``` {.python .cell-code}\nimport pandas as pd\n\ndf = pd.DataFrame({\n    \"fruit\": [\"apple\", \"banana\", \"kiwi\"],\n    \"rating\": [8, 6, 9]\n})\ndf\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```{=html}\n<div>\n<style scoped>\n    .dataframe tbody tr th:only-of-type {\n        vertical-align: middle;\n    }\n\n    .dataframe tbody tr th {\n        vertical-align: top;\n    }\n\n    .dataframe thead th {\n        text-align: right;\n    }\n</style>\n<table border=\"1\" class=\"dataframe\">\n  <thead>\n    <tr style=\"text-align: right;\">\n      <th></th>\n      <th>fruit</th>\n      <th>rating</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <th>0</th>\n      <td>apple</td>\n      <td>8</td>\n    </tr>\n    <tr>\n      <th>1</th>\n      <td>banana</td>\n      <td>6</td>\n    </tr>\n    <tr>\n      <th>2</th>\n      <td>kiwi</td>\n      <td>9</td>\n    </tr>\n  </tbody>\n</table>\n</div>\n```\n:::\n:::\n\n\n",
+    "supporting": [
+      "hello-tiny-data-world_files"
+    ],
+    "filters": [],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js\" integrity=\"sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==\" crossorigin=\"anonymous\"></script>\n<script src=\"https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js\" integrity=\"sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==\" crossorigin=\"anonymous\" data-relocate-top=\"true\"></script>\n<script type=\"application/javascript\">define('jquery', [],function() {return window.jQuery;})</script>\n"
+      ]
+    }
+  }
+}
